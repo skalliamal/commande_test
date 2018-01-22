@@ -1,0 +1,3 @@
+ecommerce_ajout_produit:
+    path:     /ajout_produit
+    defaults: { _controller: EcommerceBundle:Ecommerce:ajout_produit }

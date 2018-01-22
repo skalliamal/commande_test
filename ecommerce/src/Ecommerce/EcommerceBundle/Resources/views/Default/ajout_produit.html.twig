@@ -1,0 +1,13 @@
+Legume:<br>
+
+{% for produit in produits %}
+   <section>
+    {{ produit.nom }}<br>
+    {{ produit.description }}<br>
+    {{ produit.categorie }}<br>
+    {{ produit.disponible }}<br>
+    {{ produit.prix }}<br>
+    {{ produit.tva }}<br>
+    {{ produit.description }}<br>
+   </section>
+{% endfor %}
